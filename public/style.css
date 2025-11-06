@@ -1,0 +1,44 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0b0e11;
+  color: #e0e0e0;
+  padding-top: 70px;
+}
+
+.custom-navbar {
+  background: linear-gradient(90deg, #0d1b2a, #1b263b);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+}
+.custom-navbar .nav-link:hover {
+  color: #ffcc00;
+}
+
+.navbar-brand {
+  color: #ffcc00 !important;
+}
+
+.hero-section {
+  background: url('Tronca.jpg') center/cover no-repeat;
+  height: 90vh;
+  position: relative;
+}
+.hero-section .overlay {
+  
+  position: absolute;
+  inset: 0;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #ffcc00, #f7e18e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  border-top: 1px solid #1b263b;
+  background: #0d1b2a;
+  color: #ccc;
+}
+footer strong {
+  color: #ffcc00;
+}
